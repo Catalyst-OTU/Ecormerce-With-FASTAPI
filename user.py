@@ -30,10 +30,10 @@ async def get_users():
 
 
 
-@user_router.get('/product')
-async def get_product():
-    response = await product_pydantic.from_queryset(Product.all())
-    return {"status": "ok", "data": response}
+# @user_router.get('/product')
+# async def get_product():
+#     response = await product_pydantic.from_queryset(Product.all())
+#     return {"status": "ok", "data": response}
 
 
 
